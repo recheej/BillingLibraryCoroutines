@@ -9,9 +9,9 @@ This library provides simple to use coroutine versions of the Google Billing Lib
 	}
 ```
 
-Example usage:
+## Example usage:
 
-```
+```kotlin
 	// you shouldn't actually use GlobalScope. This is just for example.
 	GlobalScope.launch {
 	    val purchaseResult = billingClient.queryPurchases(BillingClient.SkuType.INAPP)
