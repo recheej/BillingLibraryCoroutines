@@ -3,6 +3,23 @@ This library provides simple to use coroutine versions of the Google Billing Lib
 
 [![](https://jitpack.io/v/recheej/BillingLibraryCoroutines.svg)](https://jitpack.io/#recheej/BillingLibraryCoroutines)
 
+
+## How to get library
+
+### Step 1
+
+Add to root build.gradle:
+
+```
+allprojects {
+   	repositories {
+   		maven { url 'https://jitpack.io' }
+   	}
+   }
+```
+
+### Step 2
+
 ```
 	dependencies {
 	        implementation 'com.github.recheej:BillingLibraryCoroutines:1.0'
