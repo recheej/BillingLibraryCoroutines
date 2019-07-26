@@ -24,6 +24,4 @@ Example usage:
 		}
 	    }
 	}
-
-	}
 ```
